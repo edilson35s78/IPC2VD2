@@ -28,6 +28,7 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.resu = New System.Windows.Forms.Label()
         Me.op1 = New System.Windows.Forms.Button()
+        Me.op2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'TextBox1
@@ -77,11 +78,21 @@ Partial Class Form1
         Me.op1.Text = "operacion 1"
         Me.op1.UseVisualStyleBackColor = True
         '
+        'op2
+        '
+        Me.op2.Location = New System.Drawing.Point(181, 52)
+        Me.op2.Name = "op2"
+        Me.op2.Size = New System.Drawing.Size(75, 23)
+        Me.op2.TabIndex = 7
+        Me.op2.Text = "Operacion 2"
+        Me.op2.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(450, 408)
+        Me.Controls.Add(Me.op2)
         Me.Controls.Add(Me.op1)
         Me.Controls.Add(Me.resu)
         Me.Controls.Add(Me.Label1)
@@ -101,4 +112,5 @@ Partial Class Form1
     Friend WithEvents Label1 As Label
     Friend WithEvents resu As Label
     Friend WithEvents op1 As Button
+    Friend WithEvents op2 As Button
 End Class
