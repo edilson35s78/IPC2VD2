@@ -14,6 +14,7 @@
 
     Private Sub Op3_Click(sender As Object, e As EventArgs) Handles Op3.Click
         resu.Text = ((TextBox2.Text) ^ (1 / 2) - (TextBox1.Text * TextBox3.Text) ^ (1 / 2)).ToString
+        resu.Text += "_201513634"
 
     End Sub
 
