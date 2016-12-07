@@ -16,4 +16,9 @@
         resu.Text = ((TextBox2.Text) ^ (1 / 2) - (TextBox1.Text * TextBox3.Text) ^ (1 / 2)).ToString
 
     End Sub
+
+    Private Sub op4_Click(sender As Object, e As EventArgs) Handles op4.Click
+        resu.Text = (((TextBox1.Text) ^ (-1 * TextBox2.Text) + TextBox1.Text ^ (TextBox2.Text)) / TextBox3.Text).ToString
+
+    End Sub
 End Class
