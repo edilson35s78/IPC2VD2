@@ -1,0 +1,11 @@
+¿Que entiende por Commit?
+
+-es una version del programa
+
+¿Que entiende por merge?
+
+-Cambio en el codigo
+
+¿Que entiende por pull y push?
+
+-pull descarga los commit y push carga los commit que estan de manera local
